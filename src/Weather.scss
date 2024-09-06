@@ -1,0 +1,79 @@
+.weather-forecast-table-container {
+    padding: 20px;
+    background-color: #003366;
+    border-radius: 10px;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+  
+    .weather-forecast-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      color: white;
+  
+      caption {
+        caption-side: top;
+        text-align: left;
+        font-weight: bold;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+      }
+  
+      thead {
+        background-color: #005599;
+  
+        .highlight {
+          color: #f39c12;
+        }
+  
+        th {
+          padding: 10px;
+          font-size: 1.2rem;
+        }
+      }
+  
+      tbody {
+        tr {
+          background-color: #004488;
+  
+          td {
+            padding: 15px;
+            font-size: 1rem;
+            border-right: 1px solid #514e4e;
+  
+            .icon {
+              font-size: 2.5rem;
+            }
+  
+            .temp-high {
+              font-size: 1.4rem;
+              font-weight: bold;
+              color: #f39c12;
+              margin-top: 10px;
+            }
+          }
+  
+        }
+  
+        .description-row {
+          background-color: white;
+          color: #090909;
+          td {
+            font-size: 0.9rem;
+            padding: 15px;
+          }
+        }
+  
+        .humidity-row {
+          background-color: black;
+          color: #f6f8fa;
+          td {
+            font-size: 1.2rem;
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+  
